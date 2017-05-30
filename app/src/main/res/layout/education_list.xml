@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/education_list"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:minHeight="78dp">
+
+    <ImageView
+        android:id="@+id/education_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp" />
+
+    <LinearLayout
+        android:id="@+id/education_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_toRightOf="@id/education_icon"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/education_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textColor="@color/textBlack"
+            android:textSize="16sp"
+            tools:text="Large Text" />
+
+        <TextView
+            android:id="@+id/education_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            tools:text="Large Text" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

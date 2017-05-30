@@ -8,7 +8,7 @@ public class CoreSkill {
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    /*creates a new COreSkill object
+    /*creates a new CoreSkill object
     * @param coreSkillName is the most basic info, namely what the skill is called
     */
     public CoreSkill(String coreSkillName, int imageResourceId) {

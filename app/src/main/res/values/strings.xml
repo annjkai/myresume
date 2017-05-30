@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="your_name">Annika Kaiser</string>
+
+    <!-- Tab names-->
+    <string name="category_profile">Profile</string>
+    <string name="category_projects">Projects</string>
+    <string name="category_education">Education</string>
+
+    <!--These strings are for the Profile page, including the Summary and Core Skills -->
+    <string name="summary">Summary</string>
+    <!--Summary [max. 100 char] -->
+    <string name="profile_summary">Novice Android developer, expert text processor with
+        a focus on developing and improving technical texts in both English and German.
+        Interested in creating beautiful apps with intuitive UI.</string>
+    <string name="core_skills">Core Skills</string>
+    <string name="english">English</string>
+
+    <!--These strings are for the Projects page -->
+    <!--Project descriptions -->
+    <string name="miwok_description">A simple language learning app</string>
+    <string name="justjava_description">A coffee ordering app</string>
+    <string name="willsonsgrill">An app for a local diner</string>
+
+
+    <!--These strings are for the Education page -->
+
+</resources>
