@@ -1,2 +1,2 @@
 # myresume
-A repo for an app that displays a dynamic resume
+A repo for an Android app that displays a dynamic resume.
